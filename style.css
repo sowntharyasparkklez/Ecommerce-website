@@ -705,3 +705,210 @@ height: auto;
      margin-top: 30px; 
 }
 /* contact */
+#page-header.contact-header{
+    background-image: url(img/about/banner.png);
+}
+#contact-details{
+    display: flex;
+    align-items: center;justify-content: space-between;
+}
+#contact-details .details{
+    width: 40%;
+}
+#contact-details{
+    padding:40px 80px;
+}
+#contact-details .details span,#form-details form span{
+    font-size: 12px;
+}
+#contact-details .details h2,#form-details form h2{
+font-size: 26px;padding: 20px 0px;
+}
+#contact-details .details h3{
+    font-size: 17px;
+    padding-bottom: 15px;
+}
+#contact-details p{
+    color: #414141;
+    font-size: 14px;
+}
+#contact-details .details li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0px;
+}
+#contact-details .details li p a{
+    text-decoration: none;
+    color: #414141;
+    cursor: pointer;
+}
+#contact-details .details li i{
+    font-size: 17px;
+    padding-right: 22px;
+}
+#contact-details .map{
+    width: 55%;
+    height: 400px;
+}
+#contact-details .map iframe{
+    width: 100%;
+    height: 100%;
+}
+#form-details{
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px;
+    border: 1px solid #e1e1e1;
+}
+#form-details form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#form-details form input,textarea{
+    width: 100%;
+    padding: 12px 15px; 
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+#form-details form button{
+background: #088178;
+color: white;
+padding: 16px 26px;
+border-radius: 4px;
+border: none;
+cursor: pointer;
+}
+#form-details form button:hover{
+    background-color: white;
+    color: #088178;
+    border: 1px solid #088178;
+}
+.people div{
+padding-bottom: 25px;
+display: flex;
+align-items: flex-start;
+}
+.people img{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+.people div p{
+    margin: 0;
+    font-size: 13px;
+    line-height: 25px;
+    color: #414141;
+}
+.people div span{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* cart */
+#cart{
+    overflow-x: auto;
+    padding: 40px 80px;
+}
+#cart table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+#cart table img{
+    width: 70px;
+}
+#cart table td:nth-child(1){
+    width: 100px;
+    text-align: center;
+}
+#cart table td:nth-child(2){
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(3){
+    width: 250px;
+    text-align: center;
+}
+#cart table td:nth-child(4),#cart table td:nth-child(5),#cart table td:nth-child(6){
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(5) input{
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+#cart table thead{
+    border: 1px solid #e2e9e1;
+    border-left: none;
+    border-right: none;
+}
+#cart table thead td{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 13px 0;
+}
+#cart table tbody tr td{
+padding-top: 15px;
+}
+#cart table tbody  td{
+font-size: 14px;
+}
+.cart-add{
+    padding: 40px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cart-add button{
+    background: #088178;
+color: white;
+padding: 12px 20px;
+border-radius: 4px;
+border: none;
+cursor: pointer;
+}
+.cart-add button:hover{
+    background-color: white;
+    color: #088178;
+    border: 1px solid #088178;
+}
+.coupon{
+    width: 50%;
+    margin-bottom: 30px;
+}
+.coupon h3,.subtotal h3{
+    padding-bottom: 15px;
+    font-size: 27px;
+}
+.coupon input{
+    padding: 10px 20px;
+    outline: none;
+    width: 60%;
+    border: 1px solid #e2e9e1;
+    margin-right: 10px;
+}
+.subtotal{
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #e2e9e1;
+    padding: 30px;
+}
+.subtotal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.subtotal table td{
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #e2e9e1;
+    font-size: 15px;
+}
